@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import Dinner from './Dinner.js'
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <h1>Nothing Impossible! Always Try</h1>
+      <Dinner Name="Biryani" SwName="Kheer"/>
+      <hr/>
+      <Dinner Name="Biryani" SwName="Kheer"/>
+      <hr/>
+      <Dinner Name="Biryani" SwName="Kheer"/>
     </div>
   );
 }
